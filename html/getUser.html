@@ -1,0 +1,15 @@
+<html>
+<body>
+<div>
+  Enter name: <input type="text" id="username">
+  <button onclick="searchForUser()"> Submit </button>
+</div>
+</body>
+<script type="text/javascript">
+	function searchForUser(){
+		var username=document.getElementById("username").value;
+		window.location.href = "/users/"+username;
+
+	}
+</script>
+</html>
