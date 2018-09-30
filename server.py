@@ -81,7 +81,6 @@ def get_user(path):
 		return send_from_directory(static_file_dir, 'getUser.html')
 
 
-
 # TO SERVE STATIC FILES from THE HTML FOLDER
 @app.route('/static', methods=['GET'])
 def serve_dir_directory_index():
